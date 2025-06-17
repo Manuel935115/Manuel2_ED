@@ -69,7 +69,8 @@ public class Martin_Rectangulo {
 		return "Martin_Rectangulo [id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + "]";
 	}
 	
-	 public double calcularPerimetro() {
+	
+	public double calcularPerimetro() {
 	        return 2 * (this.ladoA + this.ladoB);
 	    }
 	

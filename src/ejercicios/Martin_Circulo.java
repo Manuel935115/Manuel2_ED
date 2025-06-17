@@ -67,6 +67,8 @@ public class Martin_Circulo {
 	public String toString() {
 		return "Martin_Circulo [id=" + id + ", nombre=" + nombre + ", radio=" + radio + ", color=" + color + "]";
 	}
+
+	
 	public double calcularPerimetro() {
         return 2 * Math.PI * this.radio;
     }
