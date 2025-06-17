@@ -1,7 +1,16 @@
 package ejercicios;
 
+/**
+ * @author manuel.martin3
+ * @version 1.0
+ * Clase que representa un círculo con atributos como id, nombre, radio y color.
+ * Permite crear instancias con diferentes constructores y obtener sus propiedades.
+ */
 public class Martin_Circulo {
 
+
+	
+	
 	
 	 private int id;
 	private String nombre;
