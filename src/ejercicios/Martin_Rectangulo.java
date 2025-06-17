@@ -4,12 +4,10 @@ package ejercicios;
  * @author manuel.martin3
  * @version 1.0
  *  Clase que representa a un rectangulo en el cual tenemos los atributos como id, ladoA, ladoB y color
- * Permite crear instancias con diferentes constructores y obtener sus propiedades.
+ * Permite crear instancias con diferentes constructores y obtener sus propiedades
  */
 public class Martin_Rectangulo {
 
-	
-	
 	private int id;
 	private double ladoA;
 	private double ladoB;
@@ -71,6 +69,8 @@ public class Martin_Rectangulo {
 		return "Martin_Rectangulo [id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + "]";
 	}
 	
-	
+	 public double calcularPerimetro() {
+	        return 2 * (this.ladoA + this.ladoB);
+	    }
 	
 }

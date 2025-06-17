@@ -3,8 +3,8 @@ package ejercicios;
 /**
  * @author manuel.martin3
  * @version 1.0
- * Clase que representa un círculo con atributos como id, nombre, radio y color.
- * Permite crear instancias con diferentes constructores y obtener sus propiedades.
+ * Clase que representa un círculo con atributos como id, nombre, radio y color
+ * Permite crear instancias con diferentes constructores y obtener sus propiedades
  */
 public class Martin_Circulo {
 
@@ -67,7 +67,9 @@ public class Martin_Circulo {
 	public String toString() {
 		return "Martin_Circulo [id=" + id + ", nombre=" + nombre + ", radio=" + radio + ", color=" + color + "]";
 	}
-	
+	public double calcularPerimetro() {
+        return 2 * Math.PI * this.radio;
+    }
 	
 	
 }
