@@ -56,7 +56,13 @@ public class Martin_Rectangulo {
 	public void setColor(String color) {
 		this.color = color;
 	}
+
 	
+	//Metodo toString
+	@Override
+	public String toString() {
+		return "Martin_Rectangulo [id=" + id + ", ladoA=" + ladoA + ", ladoB=" + ladoB + ", color=" + color + "]";
+	}
 	
 	
 	
